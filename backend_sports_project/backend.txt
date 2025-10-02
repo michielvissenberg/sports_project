@@ -1,0 +1,8 @@
+backend 
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+.\venv\Scripts\Activate
+
+uvicorn app.main:app --reload
+
+https://www.thesportsdb.com/documentation#v1
